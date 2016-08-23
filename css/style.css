@@ -108,3 +108,31 @@ p {
 .small {
   font-size: 1rem;
   color: #2176C7; }
+
+/* line 3, ../component/sass/_modules.scss */
+.speakers .item {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 6, ../component/sass/_modules.scss */
+  .speakers .item h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #819090;
+    margin-bottom: 5px; }
+  /* line 13, ../component/sass/_modules.scss */
+  .speakers .item img {
+    width: 120px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px; }
+
+/* line 22, ../component/sass/_modules.scss */
+#nextmeeting {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 25, ../component/sass/_modules.scss */
+  #nextmeeting img {
+    width: 30%;
+    min-width: 130px;
+    float: left;
+    margin-right: 3%; }
