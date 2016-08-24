@@ -121,18 +121,51 @@ p {
     margin-bottom: 5px; }
   /* line 13, ../component/sass/_modules.scss */
   .speakers .item img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
     width: 120px;
     float: left;
     margin-left: 10px;
     margin-right: 10px; }
 
-/* line 22, ../component/sass/_modules.scss */
+/* line 24, ../component/sass/_modules.scss */
 #nextmeeting {
   overflow: hidden;
   *zoom: 1; }
-  /* line 25, ../component/sass/_modules.scss */
+  /* line 27, ../component/sass/_modules.scss */
   #nextmeeting img {
     width: 30%;
     min-width: 130px;
     float: left;
     margin-right: 3%; }
+
+/* line 37, ../component/sass/_modules.scss */
+.socialmediaicons .title {
+  float: left; }
+/* line 40, ../component/sass/_modules.scss */
+.socialmediaicons ul {
+  float: left; }
+  /* line 42, ../component/sass/_modules.scss */
+  .socialmediaicons ul li {
+    display: inline-block;
+    margin-left: 5px; }
+    /* line 45, ../component/sass/_modules.scss */
+    .socialmediaicons ul li img {
+      width: 30px;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%; }
+
+/* line 54, ../component/sass/_modules.scss */
+.pixgrid {
+  overflow: hidden;
+  *zoom: 1; }
+  /* line 57, ../component/sass/_modules.scss */
+  .pixgrid img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    width: 30%;
+    max-width: 120px;
+    cursor: pointer; }
